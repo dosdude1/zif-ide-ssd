@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "cust")(type "KiCad")(uri "${KIPRJMOD}/cust.kicad_sym")(options "")(descr ""))
+  (lib (name "symbols")(type "KiCad")(uri "/home/cmis/BenqS6-SSD/pcb/symbols.kicad_sym")(options "")(descr ""))
+)
