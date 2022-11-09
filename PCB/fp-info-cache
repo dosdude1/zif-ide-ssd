@@ -1,4 +1,4 @@
-20447678683907311
+20516087115411107
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -80,6 +80,13 @@ Battery
 BatteryHolder_Keystone_1042_1x18650
 Battery holder for 18650 cylindrical cells http://www.keyelco.com/product.cfm/product_id/918
 18650 Keystone 1042 Li-ion
+0
+2
+2
+Battery
+BatteryHolder_Keystone_1057_1x2032
+SMT (Auto-In/Ultra-Low) Holder for 2032 Cell, 33.2 x 23.9mm, 2mm height above PCB, https://www.keyelco.com/userAssets/file/M65p4.pdf
+Keystone type 1057 coin cell holder
 0
 2
 2
@@ -7980,6 +7987,13 @@ Power Jack
 3
 3
 Connector_BarrelJack
+BarrelJack_Kycon_KLDX-0202-xC_Horizontal
+DC Barrel Jack 2mm or 2.5mm center pin, https://www.kycon.com/Pub_Eng_Draw/KLDX-0202-AC%20&%20BC.pdf
+power jack 2mm 2.5mm KLDX-0202-BC KLDX-0202-AC
+0
+3
+3
+Connector_BarrelJack
 BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal
 DC Power Jack, 13A, 24V, Panel Mount,Through-hole, https://www.switchcraft.com/Drawings/RAPC10U_CD.pdf
 barreljack switchcraftconxall dc power
@@ -9898,6 +9912,20 @@ connector JAE  top entry
 81
 81
 Connector_FFC-FPC
+Jushuo_AFC07-S06FCA-00_1x6-1MP_P0.50_Horizontal
+Jushuo AFC07, FFC/FPC connector, AFC07-S06FCA-00, 6 Pins per row (https://datasheet.lcsc.com/lcsc/1811040204_JUSHUO-AFC07-S32FCC-00_C11061.pdf)
+connector jushuo horizontal
+0
+8
+7
+Connector_FFC-FPC
+Jushuo_AFC07-S24FCA-00_1x24-1MP_P0.50_Horizontal
+Jushuo AFC07, FFC/FPC connector, AFC07-S24FCA-00, 24 Pins per row (https://datasheet.lcsc.com/lcsc/1811040204_JUSHUO-AFC07-S32FCC-00_C11061.pdf)
+connector jushuo horizontal
+0
+26
+25
+Connector_FFC-FPC
 Molex_52559-3652_2x18-1MP_P0.5mm_Vertical
 Molex 0.50mm Pitch Easy-On Type FFC/FPC, 52559-3652, 36 Circuits (https://www.molex.com/pdm_docs/sd/525593652_sd.pdf)
 connector Molex top entry
@@ -10212,6 +10240,13 @@ connector Molex  top entry
 0
 53
 52
+Connector_FFC-FPC
+Omron_XF2M-4015-1A_1x40-1MP_P0.5mm_Horizontal
+Omron FPC connector, 40 top-side contacts, 0.5mm pitch, SMT, https://omronfs.omron.com/en_US/ecb/products/pdf/en-xf2m.pdf
+omron fpc xf2m
+0
+42
+41
 Connector_FFC-FPC
 TE_0-1734839-5_1x05-1MP_P0.5mm_Horizontal
 TE FPC connector, 05 top-side contacts, 0.5mm pitch, SMT, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734839%7FC%7Fpdf%7FEnglish%7FENG_CD_1734839_C_C_1734839.pdf%7F4-1734839-0
@@ -45514,6 +45549,13 @@ usb A plug horizontal
 11
 10
 Connector_USB
+USB3_A_Receptacle_Wuerth_692122030100
+USB 3.0, type A, right angle (https://www.we-online.com/katalog/datasheet/692122030100.pdf)
+USB 3.0 type A right angle Würth
+0
+11
+10
+Connector_USB
 USB3_Micro-B_Connfly_DS1104-01
 Micro USB B receptable with flange, bottom-mount, SMD, right-angle (http://en.connfly.com/static/upload/file/pdf/DS1104-01.pdf)
 USB 3.0 Micro B SMD right angle
@@ -48084,8 +48126,8 @@ connector wire 2sqmm double-strain-relief
 6
 Connector_Wire
 SolderWirePad_1x01_SMD_1x2mm
-Wire Pad, Square, SMD Pad,  5mm x 10mm,
-MesurementPoint Square SMDPad 5mmx10mm 
+Wire Pad, Square, SMD Pad,  1mm x 2mm,
+MesurementPoint Square SMDPad 1mmx2mm 
 0
 1
 1
@@ -48236,6 +48278,13 @@ switching power supply
 0
 4
 4
+Converter_ACDC
+Converter_ACDC_Murata_BAC05SxxDC_THT
+ACDC-Converter, Murata, 5W, ClassB, https://www.murata.com/products/productdata/8809982558238/KAC-BAC05.pdf
+switching power supply tht
+0
+5
+5
 Converter_ACDC
 Converter_ACDC_RECOM_RAC01-xxSGB_THT
 https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
@@ -48551,6 +48600,13 @@ dc-dc recom buck lga-25 pitch 2.29mm
 0
 25
 25
+Converter_DCDC
+Converter_DCDC_Silvertel_Ag54xx
+DCDC-Converter, 30W POE, Silvertel, pitch 2.54mm, package size 62x19.5x14mm, https://silvertel.com/images/datasheets/Ag5400-datasheet-high%20Efficiency-30W-Power-Over-Ethernet-Plus-Module-PoE+PD.pdf
+DCDC-Converter Silvertel Ag5405 Ag5412 Ag5424 single output POE
+0
+10
+10
 Converter_DCDC
 Converter_DCDC_Silvertel_Ag5810
 DCDC-Converter, 60W POE, Silvertel, pitch 2.54mm, package size 69.98x30x15.64mm, https://silvertel.com/images/datasheets/Ag5810-datasheet-IEEE802_3bt-Power-over-Ethernet-4-pair-PD.pdf
@@ -50225,6 +50281,13 @@ MicroMELF Diode
 2
 2
 Diode_SMD
+D_MicroSMP
+Diode MicroSMP (DO-219AD), https://www.vishay.com/docs/89020/mss1p3l.pdf
+Diode MicroSMP (DO-219AD)
+0
+2
+2
+Diode_SMD
 D_MiniMELF
 Diode Mini-MELF (SOD-80)
 Diode Mini-MELF (SOD-80)
@@ -51191,6 +51254,13 @@ diode module
 5
 5
 Diode_THT
+Diode_Bridge_DIGITRON_KBPC_T
+Single phase, Bridge rectifier, 28.614x28.614mm, case KBPC_T(FP), https://www.digitroncorp.com/Digitron/media/Files/Datasheets/KBPC15005-SERIES.pdf
+diode module
+0
+4
+4
+Diode_THT
 Diode_Bridge_DIP-4_W5.08mm_P2.54mm
 4-lead dip package for diode bridges, row spacing 5.08mm, pin-spacing 2.54mm, see http://www.vishay.com/docs/88898/b2m.pdf
 DIL DIP PDIP 5.08mm 2.54
@@ -51201,6 +51271,20 @@ Diode_THT
 Diode_Bridge_DIP-4_W7.62mm_P5.08mm
 4-lead dip package for diode bridges, row spacing 7.62 mm (300 mils), see http://cdn-reichelt.de/documents/datenblatt/A400/HDBL101G_20SERIES-TSC.pdf
 DIL DIP PDIP 5.08mm 7.62mm 300mil
+0
+4
+4
+Diode_THT
+Diode_Bridge_GeneSiC_KBPC_T
+Single phase, Bridge rectifier, 28.55x28.55mm, case KBPC_T(FP), https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc1501t.pdf
+diode module
+0
+4
+4
+Diode_THT
+Diode_Bridge_GeneSiC_KBPC_W
+Single phase, Bridge Rectifier, 28.55x28.55mm, case KBPC_W(WP), https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc15005w.pdf
+diode module
 0
 4
 4
@@ -52535,6 +52619,13 @@ bourns ptc resettable fuse polyfuse MF-SM MF-SMHT
 2
 2
 Fuse
+Fuse_Bourns_TBU-CA
+Bourns TBU-CA Fuse, 2 Pin (https://www.bourns.com/data/global/pdfs/TBU-CA.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Bourns Fuse NoLead
+0
+3
+3
+Fuse
 Fuse_Littelfuse-LVR100
 Littelfuse, resettable fuse, PTC, polyswitch LVR100, Ih 1A http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lvr_catalog_datasheet.pdf.pdf
 LVR100 PTC resettable polyswitch 
@@ -53277,6 +53368,13 @@ inductor abracon smd shielded
 2
 2
 Inductor_SMD
+L_Abracon_ASPI-4030S
+smd shielded power inductor 4x4x3mm, Abracon ASPI-4030S, https://abracon.com/Magnetics/power/ASPI-4030S.pdf
+inductor abracon smd shielded
+0
+2
+2
+Inductor_SMD
 L_Bourns-SRN1060
 Bourns SRN1060 series SMD inductor https://www.bourns.com/docs/Product-Datasheets/SRN1060.pdf
 Bourns SRN1060 SMD inductor
@@ -53413,6 +53511,20 @@ Inductor_SMD
 L_Bourns_SRR1260
 Bourns SRR1260 series SMD inductor http://www.bourns.com/docs/Product-Datasheets/SRR1260.pdf
 Bourns SRR1260 SMD inductor
+0
+2
+2
+Inductor_SMD
+L_Coilcraft_LPS3010
+Shielded Power Inductor SMD 3x3x1mm, Coilcraft LPS3010, https://www.coilcraft.com/pdfs/lps3010.pdf
+inductor low profile
+0
+2
+2
+Inductor_SMD
+L_Coilcraft_LPS3314
+SMD Inductor, 3.3x3.3x1.4mm, Coilcraft LPS3314, https://www.coilcraft.com/pdfs/lps3314.pdf
+L Coilcraft LPS3314
 0
 2
 2
@@ -53802,6 +53914,13 @@ Neosid Inductor SMs95 Fixed inductor SMD magnetically shielded
 2
 2
 Inductor_SMD
+L_Pulse_P059x
+1:1, Power Inductor, https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/p0599nl
+inductor coil choke
+0
+4
+4
+Inductor_SMD
 L_Pulse_PA4320
 Inductor SMD Pulse PA4320 http://productfinder.pulseeng.com/products/datasheets/P787.pdf
 Inductor SMD Pulse PA4320
@@ -53990,6 +54109,13 @@ inductor TDK VLP smd VLP8040
 0
 2
 2
+Inductor_SMD
+L_Taiyo-Yuden_BK_Array_1206_3216Metric
+Ferrite Bead Array 4x0603, Taiyo Yuden BK Series (see https://www.yuden.co.jp/productdata/catalog/mlci09_e.pdf)
+ferrite bead array
+0
+8
+8
 Inductor_SMD
 L_Taiyo-Yuden_MD-1616
 Inductor, Taiyo Yuden, MD series, Taiyo-Yuden_MD-1616, 1.6mmx1.6mm
@@ -56860,6 +56986,13 @@ dual led smd
 0
 4
 4
+LED_SMD
+LED_Kingbright_APDA3020VBCD
+LED, SMD, APDA3020VBC/D, https://www.kingbrightusa.com/images/catalog/SPEC/APDA3020VBC-D.pdf
+LED APDA3020VBC/D Kingbright 
+0
+2
+2
 LED_SMD
 LED_Kingbright_APFA3010_3x1.5mm_Horizontal
 LED RGB, APFA3010, http://www.kingbrightusa.com/images/catalog/SPEC/APFA3010LSEEZGKQBKC.pdf
@@ -62313,6 +62446,13 @@ LFCSP 8 0.5
 0
 12
 5
+Package_CSP
+LFCSP-6-1EP_2x2mm_P0.65mm_EP1x1.6mm
+LFCSP, 6 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_6_3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP NoLead
+0
+11
+7
 Package_CSP
 LFCSP-8-1EP_3x2mm_P0.5mm_EP1.6x1.65mm
 LFCSP 8pin Pitch 0.5mm, http://www.analog.com/media/en/package-pcb-resources/package/57080735642908cp_8_4.pdf
@@ -71345,8 +71485,8 @@ TSOP-I SO
 32
 Package_SO
 TSOP-I-32_18.4x8mm_P0.5mm
-TSOP I, 32 pins, 18.4x8mm body (https://www.micron.com/~/media/documents/products/technical-note/nor-flash/tn1225_land_pad_design.pdf, http://www.fujitsu.com/downloads/MICRO/fma/pdfmcu/f32pm25.pdf)
-TSOP I 32
+TSOP-I, 32 Pin (https://www.jedec.org/standards-documents/docs/mo-142-d variation BD), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSOP-I SO
 0
 32
 32
@@ -71408,8 +71548,8 @@ TSOP-I SO
 48
 Package_SO
 TSOP-I-48_18.4x12mm_P0.5mm
-TSOP I, 32 pins, 18.4x8mm body (https://www.micron.com/~/media/documents/products/technical-note/nor-flash/tn1225_land_pad_design.pdf)
-TSOP I 32
+TSOP-I, 48 Pin (https://www.jedec.org/standards-documents/docs/mo-142-d variation DD), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSOP-I SO
 0
 48
 48
@@ -71429,8 +71569,8 @@ TSOP-I SO
 56
 Package_SO
 TSOP-I-56_18.4x14mm_P0.5mm
-TSOP I, 32 pins, 18.4x8mm body (https://www.micron.com/~/media/documents/products/technical-note/nor-flash/tn1225_land_pad_design.pdf)
-TSOP I 32
+TSOP-I, 56 Pin (https://www.jedec.org/standards-documents/docs/mo-142-d variation EC), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSOP-I SO
 0
 56
 56
@@ -72652,6 +72792,13 @@ Infineon PG-TO-220-7
 0
 12
 8
+Package_TO_SOT_SMD
+Infineon_PG-TSFP-3-1
+Infineon_PG-TSFP-3-1, https://www.infineon.com/dgdl/TSFP-3-1,-2-Package_Overview.pdf?fileId=db3a30431936bc4b0119539929863d46
+TSFP-3
+0
+3
+3
 Package_TO_SOT_SMD
 LFPAK33
 LFPAK33 SOT-1210 https://assets.nexperia.com/documents/outline-drawing/SOT1210.pdf
