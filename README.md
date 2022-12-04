@@ -19,3 +19,17 @@ WARNING: THE SILICON MOTION SM2236 CONTROLLER PINOUT AND IMPLEMENTATION HAVE BEE
 ## Programming
 
 Upon the completion of board assembly, the SM2236 controller must be programmed for the NAND ICs you have installed. To do so, you must utilize an IDE to USB adapter to connect the drive to a PC running Windows (using native IDE for this will not work). Then, the SM2236 MPTool must be used to set all the desired drive information, select the part number of NAND ICs you have installed, and program the drive.
+
+## 3D Printed Case
+
+In the `Case` directory you will find an OpenSCAD file to produce a case for the SSD. This has been tuned to prusaslicer with:
+
+- PETG filament
+
+- Monotonic solid infill
+
+- 0.35mm layer height
+
+- 3 perimiters
+
+It has not been printed under any other conditions. Because the case is only 8 layers thick it is very susceptible to poor bed adhesion and warping. 
