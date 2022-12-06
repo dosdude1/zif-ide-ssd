@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/cmis/Documents/ZIF-IDE-SSD/PCB/IDE-SSD-ZIF.kicad_sch")
-    (date "Sun 04 Dec 2022 01:22:27 AM EST")
+    (date "Mon 05 Dec 2022 07:37:42 PM EST")
     (tool "Eeschema (6.0.9)")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -657,7 +657,7 @@
       (tstamps "cff2d634-4043-43ca-ba72-cf301e3c4959"))
     (comp (ref "U2")
       (value "TLV75518PDRV")
-      (footprint "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
+      (footprint "cust:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
       (datasheet "http://www.ti.com/lit/ds/symlink/tlv755p.pdf")
       (libsource (lib "Regulator_Linear") (part "TLV75518PDRV") (description "500mA Low Dropout Voltage Regulator, Fixed Output 1.8V, WSON6"))
       (property (name "Sheetname") (value ""))

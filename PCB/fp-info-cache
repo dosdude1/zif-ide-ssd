@@ -1,4 +1,4 @@
-20517757251409748
+20519427538433421
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86148,6 +86148,13 @@ OMRON_XF2U-4015-3A
 0
 42
 42
+cust
+WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm
+WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+9
+7
 cust
 doslab_logo
 

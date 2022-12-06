@@ -10845,7 +10845,7 @@
     (uuid aecb8b29-acf8-488c-bc22-13c0893bad2d)
     (property "Reference" "U2" (id 0) (at 46.99 168.91 0))
     (property "Value" "TLV75518PDRV" (id 1) (at 46.99 171.45 0))
-    (property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" (id 2) (at 46.99 170.815 0)
+    (property "Footprint" "cust:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" (id 2) (at 46.99 170.815 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" (id 3) (at 46.99 177.8 0)
@@ -12417,7 +12417,7 @@
       (reference "U1") (unit 1) (value "SM2236") (footprint "cust:BGA-144_12x12_9.0x9.0mm")
     )
     (path "/aecb8b29-acf8-488c-bc22-13c0893bad2d"
-      (reference "U2") (unit 1) (value "TLV75518PDRV") (footprint "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
+      (reference "U2") (unit 1) (value "TLV75518PDRV") (footprint "cust:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
     )
     (path "/ceba4065-2a56-47ca-a8fb-2a3e07d4063c"
       (reference "U3") (unit 1) (value "FlashBGA152") (footprint "Package_BGA:BGA-152_14x18mm_Layout13x17_P0.5mm")
